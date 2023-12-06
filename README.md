@@ -27,3 +27,12 @@ PandaDash is a straightforward dashboard designed for presenting, visualizing, a
 `npm install && npm run dev`
 7. Run the application
 `php artisan serve`
+
+## Dashboard Images
+
+![Screenshot 2023-12-06 at 20 16 09](https://github.com/DesmondThema/Panda/assets/25475754/0d12b122-a4bc-44cd-a80b-a6f23b70233f)
+
+![Screenshot 2023-12-06 at 20 15 21](https://github.com/DesmondThema/Panda/assets/25475754/f6c1b24f-2ecb-4236-b1c1-680fc6b5c38b)
+
+
+![Screenshot 2023-12-06 at 20 18 57](https://github.com/DesmondThema/Panda/assets/25475754/8fbde394-a718-48bf-a424-7a93fa7ccf9a)

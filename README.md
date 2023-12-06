@@ -17,7 +17,7 @@ PandaDash is a straightforward dashboard designed for presenting, visualizing, a
 1. Clone this repo 
 `git clone https://github.com/DesmondThema/Panda.git`
 2. cd into project
-`cd panda`
+`cd Panda`
 3. Install composer 
 `composer install`
 4. Copy the .env.example file and rename it to .env

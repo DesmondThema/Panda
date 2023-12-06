@@ -22,10 +22,9 @@ PandaDash is a straightforward dashboard designed for presenting, visualizing, a
 `composer install`
 4. Copy the .env.example file and rename it to .env
 `cp .env.example .env`
-5. Fill in the USER_EMAIL and USER_PASSWORD in .env file.
-6. Install NPM Dependencies 
+5. Install NPM Dependencies 
 `npm install && npm run dev`
-7. Run the application
+6. Run the application
 `php artisan serve`
 
 ## Dashboard Images

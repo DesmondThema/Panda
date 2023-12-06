@@ -6,7 +6,7 @@
         <form class="space-y-6" action="{{ route('login') }}" method="POST"> @csrf <div>
                 <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
                 <div class="mt-2">
-                    <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-2 @if($errors->any()) border-red-500 @endif
+                    <input id="email" name="email" type="email" autocomplete="email"  required class="block w-full rounded-md border-2 @if($errors->any()) border-red-500 @endif
                                       py-2 px-4 text-gray-900 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                 </div> @if($errors->has('email')) <p class="text-red-500 text-sm mt-1">{{ $errors->first('email') }}</p> @endif @if($errors->has('non_field_errors')) <p class="text-red-500 text-sm mt-1">{{ $errors->first('non_field_errors') }}</p> @endif
             </div>
@@ -15,7 +15,7 @@
                     <label for="password" class="block text-sm font-medium leading-6 text-gray-900">Password</label>
                 </div>
                 <div class="mt-2">
-                    <input id="password" name="password" type="password" autocomplete="current-password" class="block w-full rounded-md border-2
+                    <input id="password" name="password" type="password" autocomplete="current-password" required class="block w-full rounded-md border-2
                                       py-2 px-4 text-gray-900 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                 </div> @if($errors->has('password')) <p class="text-red-500 text-sm mt-1">{{ $errors->first('password') }}</p> @endif
             </div>

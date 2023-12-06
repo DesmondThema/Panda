@@ -26,8 +26,12 @@ PandaDash is a straightforward dashboard designed for presenting, visualizing, a
 `php artisan key:generate` 
 6. Install NPM Dependencies 
 `npm install && npm run dev`
-7. On a different terminal window, run the application
+7. On a different terminal window, move into the project directory
+`cd Panda`
+9. Run the application. 
 `php artisan serve`
+
+The application should now be accessible. Happy testing 🎉🚀 
 
 ## Dashboard Images
 
